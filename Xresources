@@ -15,7 +15,7 @@ xterm*disallowedWindowOps: 20,21,SetXProp
 
 ! black
 *.color0:       #202020
-*.color8:       #202020
+*.color8:       #555555
 
 ! red
 *.color1:       #AC4142
