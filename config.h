@@ -12,7 +12,10 @@ static char *font2[] = {
     "JoyPixels:pixelsize=10:antialias=true:autohint=true"};
 
 static int borderpx = 2;
-
+#define UNDERCURL_CURLY 0
+#define UNDERCURL_SPIKY 1
+#define UNDERCURL_CAPPED 2
+#define UNDERCURL_STYLE UNDERCURL_SPIKY
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
